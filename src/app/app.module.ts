@@ -22,36 +22,36 @@ import { ShopifyProductComponent } from './shopify-product/shopify-product.compo
     BrowserModule,
     ScullyLibModule,
     RouterModule.forRoot([{
-      path: 'a',
-      component: PageComponent
+        path: 'a',
+        component: PageComponent
     }, {
-      path: 'b',
-      component: PageComponent
+        path: 'b',
+        component: PageComponent
     }, {
-      path: 'c',
-      component: PageComponent
+        path: 'c',
+        component: PageComponent
     }, {
-      path: 'shopify-collections/:collectionHandle/:id',
-      component: ShopifyCollectionComponent
+        path: 'shopify-collections/:collectionHandle/:id',
+        component: ShopifyCollectionComponent
     }, {
-      path: 'shopify-collections/:collectionHandle',
-      component: ShopifyCollectionComponent
+        path: 'shopify-collections/:collectionHandle',
+        component: ShopifyCollectionComponent
     }, {
-      path: 'shopify-product/:productHandle',
-      component: ShopifyProductComponent
+        path: 'shopify-product/:productHandle',
+        component: ShopifyProductComponent
     }, {
-      path: 'products/:productId',
-      component: ProductsComponent
+        path: 'products/:productId',
+        component: ProductsComponent
     }, {
-      path: '',
-      component: PageComponent
+        path: '',
+        component: PageComponent
     }, {
-      path: '404',
-      component: Http404Component
+        path: '404',
+        component: Http404Component
     }, {
-      path: '**',
-      component: Http404Component
-    }])
+        path: '**',
+        component: Http404Component
+    }], { relativeLinkResolution: 'legacy' })
   ],
   providers: [],
   bootstrap: [AppComponent]

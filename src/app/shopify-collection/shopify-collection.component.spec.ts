@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { ShopifyCollectionComponent } from './shopify-collection.component';
 
@@ -6,7 +6,7 @@ describe('ShopifyCollectionComponent', () => {
   let component: ShopifyCollectionComponent;
   let fixture: ComponentFixture<ShopifyCollectionComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ ShopifyCollectionComponent ]
     })
