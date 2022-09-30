@@ -31,9 +31,6 @@
     "@angular/platform-browser": "^11.2.14",
     "@angular/platform-browser-dynamic": "^11.2.14",
     "@angular/router": "^11.2.14",
-    "@scullyio/init": "^1.0.1",
-    "@scullyio/ng-lib": "0.0.27",
-    "@scullyio/scully": "^1.0.6",
     "rxjs": "^6.6.3",
     "tslib": "^2.0.0",
     "zone.js": "^0.10.3"
